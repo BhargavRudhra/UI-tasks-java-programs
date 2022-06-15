@@ -1,0 +1,26 @@
+body,html{
+
+    background-image: url("apidata.png");
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  table{
+    background-color: burlywood;
+    position: relative;
+    left: 1100px;
+    top: 200px;
+  }
+  
+  button{
+    position: relative;
+    top: 230px;
+    left: 62%;
+    border-radius: 2px;
+    background-color: salmon;
+  }
+  /* div{
+    background-color: burlywood;
+  } */
