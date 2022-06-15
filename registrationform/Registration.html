@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<link rel='stylesheet' href='Registration.css' type='text/css' />
+<script src="Registration.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1 id="h1">Registration Form</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<li><input type="text" name="userid" size="20" /></li>
+
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" size="20" /></li>
+
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="30" /></li>
+
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="30" /></li>
+<li><label for="country">State:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a state)</option>
+<option value="AF">Andhra Pradesh</option>
+<option value="AL">Telangana</option>
+<option value="DZ">Maharastra</option>
+<option value="AS">Karnataka</option>
+<option value="AD">Chattisgarh</option>
+</select></li>
+
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+
+<li><label id="gender">Gender:</label></li>
+<li><input id="rad" type="radio" name="mgender" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fgender" value="Female" /><span>Female</span></li>
+
+<li><label>Language:</label></li>
+<li><input  type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Telugu</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Hindi</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Marati</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Kannada</span></li>
+
+<li><label for="desc">About:</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+
+<li><input type="submit" name="submit" value="Submit" onclick="result()" /></li>
+
+<li id="res"> </li>
+</ul>
+</form>
+</body>
+</html>
