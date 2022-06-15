@@ -1,0 +1,15 @@
+h1{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    top: 50%;
+}
+body,html{
+
+    background-image: url("callbackfun.jpg");
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
